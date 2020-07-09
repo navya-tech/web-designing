@@ -1,0 +1,89 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.profile{
+    width: 100px;
+    border: 1px solid #ddd ;
+    padding: 2%;
+    margin:2%;
+    box-shadow: 0px 8px 8px -8px #000;
+    border-radius: 70%;
+
+}
+
+.child{
+    width: 25%;
+    border: 1px solid #ddd;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 0px 8px 8px -8px #000;
+    border-radius: 10%;
+    position: relative;
+    
+   
+
+}
+.child a{
+    text-align: left;
+}
+.pic{
+    width: 50px;
+    text-align: center;
+    padding: 5%;
+}
+
+.one{
+    width: 55%;
+    border: 1px solid #ddd;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 0px 8px 8px -8px #000;
+    position: relative;
+    
+}
+
+.s1{
+    color: #5ead80;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.s2{
+    color: #808080;
+    text-align: left;
+    font-size: 15px;
+}
+
+hr{
+    height: 1px;
+    background-color: #90ee90;
+}
+
+.s3{
+    color: #5ead80;
+    text-align: left;
+    
+}
+
+.s4{
+    color: #808080;
+    text-align: left;
+    
+}
+
+@media only screen and (min-width: 360px) and (max-width: 720px){
+    .child{
+        width: 90%;
+        border: 1px solid #ddd;
+        padding: 2%;
+        margin: 1%;
+        box-shadow: 0px 8px 8px -8px #000;
+        border-radius: 10%;
+        text-align: center;
+    }
+}
